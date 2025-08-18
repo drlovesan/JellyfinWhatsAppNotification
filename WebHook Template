@@ -1,0 +1,20 @@
+{
+  "Item": {
+    "Name": "{{Name}}",
+    "Type": "{{ItemType}}",
+    "SeriesName": "{{SeriesName}}",
+    "SeasonNumber": "{{SeasonNumber00}}",
+    "EpisodeNumber": "{{EpisodeNumber00}}",
+    "Year": "{{Year}}",
+    "Overview": "{{Overview}}",
+    "RunTime": "{{RunTime}}",
+    "ServerUrl": "{{ServerUrl}}",
+    "ItemId": "{{ItemId}}",
+    "CommunityRating": "{{CommunityRating}}",
+    "ProviderIds": {
+      "Imdb": "{{Provider_imdb}}",
+      "Tmdb": "{{Provider_tmdb}}"
+    }
+  },
+  "EventType": "{{EventType}}"
+}

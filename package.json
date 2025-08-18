@@ -1,0 +1,22 @@
+{
+  "dependencies": {
+    "@open-wa/wa-automate": "^4.76.0",
+    "axios": "^1.11.0",
+    "body-parser": "^2.2.0",
+    "dotenv": "^17.2.1",
+    "express": "^4.21.2",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.32.0"
+  },
+  "name": "wa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

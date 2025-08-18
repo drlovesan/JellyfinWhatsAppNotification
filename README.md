@@ -19,6 +19,9 @@ A WhatsApp account that can be linked via WhatsApp Web
 Jellyfin server with webhook support enabled
 
 ⚙️ Installation
+git clone https://github.com/drlovesan/JellyfinWhatsAppNotification.git
+cd JellyfinWhatsAppNotification
+
 Install dependencies
 npm install
 

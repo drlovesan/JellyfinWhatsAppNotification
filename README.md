@@ -80,6 +80,8 @@ Notifications include title, release year, description, poster, and links to IMD
 
 The bot must stay running (node index.js) and logged into WhatsApp to work.
 
+
+
 To keep it running 24/7, use a process manager like PM2.
 Group IDs are static — if you create new groups, update the GROUP_IDS array.
 

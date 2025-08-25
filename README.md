@@ -72,11 +72,12 @@ Select the events you want to send (new content, playback started, etc.).
 
 ## 🐳 Run with Docker
 
-Pull from GitHub Container Registry:
+# Pull from GitHub Container Registry:
 
 ```bash
 docker pull ghcr.io/drlovesan/jellyseerr-whatsapp-requester:latest
 
+# Run with docker-compose.yml:
 services:
   jellyseerr-whatsapp-bot:
     image: ghcr.io/drlovesan/jellyseerr-whatsapp-requester:latest
@@ -92,8 +93,7 @@ services:
       - ./.env:/app/.env:ro
     restart: unless-stopped
 
-
-## ✅ Usage
+# ✅ Usage
 
 Whenever Jellyfin sends an event, the bot forwards it to your defined WhatsApp groups.
 

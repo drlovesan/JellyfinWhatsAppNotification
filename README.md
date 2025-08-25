@@ -47,7 +47,7 @@ http://your-server-ip:3000/newcontent
 
 Select the events you want to send (new content, playback started, etc.).
 
-Example Webhook JSON Template as follows:
+## Example Webhook JSON Template as follows:
 
 {
   "Item": {
@@ -93,13 +93,13 @@ services:
     restart: unless-stopped
 
 
-✅ Usage
+## ✅ Usage
 
 Whenever Jellyfin sends an event, the bot forwards it to your defined WhatsApp groups.
 
 Notifications include title, release year, description, poster, and links to IMDb/TMDB.
 
-🛠️ Notes
+## 🛠️ Notes
 
 The bot must stay running (node index.js) and logged into WhatsApp to work.
 

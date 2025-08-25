@@ -70,6 +70,29 @@ Example Webhook JSON Template as follows:
   "EventType": "{{EventType}}"
 }
 
+## 🐳 Run with Docker
+
+Pull from GitHub Container Registry:
+
+```bash
+docker pull ghcr.io/drlovesan/jellyseerr-whatsapp-requester:latest
+
+services:
+  jellyseerr-whatsapp-bot:
+    image: ghcr.io/drlovesan/jellyseerr-whatsapp-requester:latest
+    container_name: jellyseerr-whatsapp-bot
+    environment:
+      JELLYSEERR_URL: http://host.docker.internal:5055
+      API_KEY: YOUR_API_KEY
+      TZ: Asia/Riyadh
+      SESSION_DIR: /data/session
+      CHROME_ARGS: --no-sandbox --disable-setuid-sandbox
+    volumes:
+      - ./data:/data
+      - ./.env:/app/.env:ro
+    restart: unless-stopped
+
+
 ✅ Usage
 
 Whenever Jellyfin sends an event, the bot forwards it to your defined WhatsApp groups.
